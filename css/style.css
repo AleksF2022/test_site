@@ -136,6 +136,12 @@ body {
     color: #fff;
 
 }
+@media screen and (max-width: 380px){
+    h1 {
+        font-size: 46px;
+        line-height: 64px;
+    }
+}
 
 .h4 {
 
