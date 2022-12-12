@@ -392,12 +392,25 @@ body {
     margin: 0 auto 22px;
 }
 @media screen and (max-width: 1200px) {
-    
+    .services{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .services__grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .services__grid-item{
+        width: 100%;
+    }
     }
 
 
 @media screen and (max-width: 768px) {
-    
+    .services__grid{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
     }
 
 
